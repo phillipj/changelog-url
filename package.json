@@ -1,0 +1,27 @@
+{
+  "name": "changelog-url",
+  "version": "1.0.0",
+  "description": "Resolve URLs to the Node.js changelog",
+  "main": "index.js",
+  "dependencies": {
+    "semver": "^5.1.0"
+  },
+  "scripts": {
+    "test": "standard index.js test/*.js && tap test/*.test.js | tap-spec"
+  },
+  "keywords": [
+    "node",
+    "changelog",
+    "url"
+  ],
+  "author": "Phillip Johnsen <johphi@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap": "^2.3.1",
+    "tap-spec": "^4.1.1"
+  }
+}
