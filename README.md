@@ -1,5 +1,7 @@
 # changelog-url
 
+[![Build Status](https://api.travis-ci.org/phillipj/changelog-url.png)](http://travis-ci.org/phillipj/changelog-url)
+
 Resolve URLs to the Node.js changelog. Handles legacy versions of Node.js, aswell as io.js and todays Node.js.
 
 ## .githubUrl(version)
