@@ -1,6 +1,6 @@
 {
   "name": "changelog-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolve URLs to the Node.js changelog",
   "main": "index.js",
   "dependencies": {
