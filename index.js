@@ -3,7 +3,7 @@
 const semver = require('semver')
 
 function legacyRepo (version) {
-  return semver.satisfies(version, '< 0.12.8') ? 'node-v0.x-archive' : 'node'
+  return semver.satisfies(version, '>= 0.10.41 < 0.11 || >= 0.12.8 < 0.13') ? 'node' : 'node-v0.x-archive'
 }
 
 function validateVersion (version) {
